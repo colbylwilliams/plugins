@@ -47,6 +47,7 @@ Add to `~/.copilot/settings.json` (personal) or a repo's `.github/copilot/settin
 | ------ | ---------- | ----------- |
 | [`hello-copilot`](plugins/hello-copilot) | skill + agent | Minimal starter — copy it as a template for your own plugins. |
 | [`filesystem-mcp`](plugins/filesystem-mcp) | MCP server | Example MCP-only plugin using `${PLUGIN_ROOT}`. |
+| [`consolidate-dependabot`](plugins/consolidate-dependabot) | skill | Reviews a repo's open Dependabot PRs across any ecosystem and rolls the safe bumps into one superseding PR. |
 
 ## Repository layout
 
