@@ -1,0 +1,11 @@
+{
+  "name": "consolidate-dependabot",
+  "description": "A skill that reviews a repo's open Dependabot PRs across any ecosystem, validates each bump, and rolls the safe ones into a single superseding consolidation PR.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Colby Williams"
+  },
+  "license": "MIT",
+  "keywords": ["dependabot", "dependencies", "skill", "pull-requests", "maintenance"],
+  "skills": "skills/"
+}
