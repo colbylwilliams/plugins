@@ -2,13 +2,11 @@
 
 A [GitHub Copilot plugin marketplace](https://docs.github.com/en/copilot/concepts/agents/about-plugins) — a single repository that indexes installable **plugins** (skills, custom agents, hooks, MCP/LSP servers) through one `marketplace.json` feed.
 
-Every Copilot surface runs the same agent engine (the `@github/copilot` CLI, built from `copilot-agent-runtime`), so plugins installed from here work across all of them:
+Plugins here use the standard [Open Plugins](https://open-plugins.com/) format, so a plugin installed from this marketplace works anywhere the Copilot agent runs, including:
 
-- **Copilot CLI** (`copilot`)
-- **Copilot SDK** apps — Node, Python, Go, .NET, Java, Rust (via installed plugins or the `pluginDirectories` session option)
+- **Copilot CLI** (`copilot`) — `copilot plugin install ...`
+- **Copilot SDK** apps — Node, Python, Go, .NET, Java, and Rust (via installed plugins or the `pluginDirectories` session option)
 - **Copilot cloud agent** (via `enabledPlugins` in a repo's `.github/copilot/settings.json`)
-- **Copilot desktop app** (Extensions panel)
-- Any Agent Host Protocol host (e.g. `copilotd`) that drives the CLI through the SDK
 
 ## Install plugins from this marketplace
 
