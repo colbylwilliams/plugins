@@ -1,0 +1,11 @@
+# macOS
+.DS_Store
+
+# Local, uncommitted artifacts (screenshots, recordings, scratch files)
+.local/
+
+# Node dependencies (for plugins that bundle a JS/TS MCP or LSP server)
+node_modules/
+
+# Logs
+*.log

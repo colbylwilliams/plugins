@@ -1,0 +1,34 @@
+{
+  "name": "colby-plugins",
+  "owner": {
+    "name": "Colby Williams"
+  },
+  "metadata": {
+    "description": "Colby's public Copilot plugins — skills, custom agents, and MCP integrations.",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "hello-copilot",
+      "description": "A minimal starter plugin: one skill plus one custom agent. Copy it as a template for your own plugins.",
+      "version": "0.1.0",
+      "author": {
+        "name": "Colby Williams"
+      },
+      "license": "MIT",
+      "keywords": ["example", "starter", "template"],
+      "source": "plugins/hello-copilot"
+    },
+    {
+      "name": "filesystem-mcp",
+      "description": "Example MCP-only plugin that runs a filesystem Model Context Protocol server scoped to the plugin directory via ${PLUGIN_ROOT}.",
+      "version": "0.1.0",
+      "author": {
+        "name": "Colby Williams"
+      },
+      "license": "MIT",
+      "keywords": ["example", "mcp", "filesystem"],
+      "source": "plugins/filesystem-mcp"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "filesystem-mcp",
+  "description": "Runs a filesystem Model Context Protocol server scoped to the plugin directory.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Colby Williams"
+  },
+  "license": "MIT",
+  "keywords": ["example", "mcp", "filesystem"],
+  "mcpServers": ".mcp.json"
+}

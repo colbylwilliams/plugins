@@ -1,0 +1,12 @@
+{
+  "name": "hello-copilot",
+  "description": "A minimal starter plugin: one skill plus one custom agent.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Colby Williams"
+  },
+  "license": "MIT",
+  "keywords": ["example", "starter", "template"],
+  "skills": "skills/",
+  "agents": "agents/"
+}
